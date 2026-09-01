@@ -14,9 +14,3 @@ public class HelloWorld {
         }
     }
 }
-git init
-git add .
-git commit -m "first commit: HelloWorld and primes"
-git branch -M main
-git remote add origin https://github.com/Kirito-design-cell/JavaLeaning.git
-git push -u origin main
