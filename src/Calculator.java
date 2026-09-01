@@ -5,7 +5,7 @@ public class Calculator {
         boolean AA = (m % n ==0);
         System.out.println("m能被11整除吗？" + AA);
 
-        System.out.println("m = n = " + (m + n));
+        System.out.println("m + n = "+ (m + n));
         System.out.println("m - n = " + (m - n));
         System.out.println("m * n = " + (m * n));
         System.out.println("m / n = " + (m / n));
