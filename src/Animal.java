@@ -14,7 +14,7 @@ public abstract class Animal {
     }
 
     public abstract void sound();
-    public void showInfo(){
+    public void introduce(){
         System.out.println("我是" + name);
     }
 }

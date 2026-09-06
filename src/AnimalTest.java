@@ -7,7 +7,7 @@ public class AnimalTest {
         animals[0].setName("大黄");
         for(Animal a :animals){
             System.out.println(a.getName() + "开始介绍");
-            a.showInfo();
+            a.introduce();
             a.sound();
         }
     }
