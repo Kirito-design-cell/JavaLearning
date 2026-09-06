@@ -12,10 +12,11 @@ public class PolymorphismTest {
             } else if (p instanceof Teacher t) {
                 System.out.println(t.getSubject());
             } else if (p instanceof Doctor d) {
+                d.introduce();
                 d.setHospital("无锡人民医院");
                 System.out.println("医院: " + d.getHospital());
+                d.surgery();
             }
-            p.introduce();
         }
     }
 }
